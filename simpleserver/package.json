@@ -1,11 +1,11 @@
 {
-  "name": "simpleserver",
+  "name": "simple server",
   "version": "1.0.0",
-  "description": "Very simple server",
-  "main": "server.js",
+  "description": "simple server",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Brad Traversy",
+  "author": "Ashwin A Kumar",
   "license": "ISC"
 }
