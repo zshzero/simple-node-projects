@@ -1,10 +1,9 @@
 const axios = require("axios");
 
 module.exports = async location => {
-  await new Promise(resolve => setTimeout(resolve, 5000));
   const results = await axios({
     method: "get",
-    url: "https://query.yahooapis.com/v1/public/yql",
+    url: "http://weather.yahooapis.com/forecastjson?w=24549429&u=c&d=5 ",
     params: {
       format: "json",
       q: `select item from weather.forecast where woeid in
