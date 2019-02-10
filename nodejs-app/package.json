@@ -1,12 +1,21 @@
 {
   "name": "demoapp",
+  "app-name": "myapp",
+  "icon": "./assets/icon.png",
+  "package-name": "mypkg",
+  "permission": [
+    "android.permission.INTERNET",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.READ_EXTERNAL_STORAGE"
+  ],
   "version": "1.0.0",
-  "description": "",
+  "dist-path": "./dist",
+  "description": "Demo app",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Ashwin A Kumar",
   "license": "ISC",
   "dependencies": {
     "androidjs": "^1.0.12"
